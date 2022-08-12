@@ -13,6 +13,16 @@ public class Product {
 	private String name;
 	private double costPrice;
 	private double retailPrice;
+	
+	
+	public Product() {
+		// TODO Auto-generated constructor stub
+	}
+	public Product(String name, double costPrice, double retailPrice) {
+		this.name = name;
+		this.costPrice = costPrice;
+		this.retailPrice = retailPrice;
+	}
 	public long getId() {
 		return id;
 	}
